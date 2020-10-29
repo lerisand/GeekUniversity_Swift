@@ -134,7 +134,7 @@ class TrunkCar: Car {
 //Для каждого класса написать расширение, имплементирующее протокол CustomStringConvertible.
 
 extension SportCar: CustomStringConvertible {
-    var descriotion: String {
+    var description: String {
         return """
                  #####
                     Color: \(self.color)
@@ -148,7 +148,7 @@ extension SportCar: CustomStringConvertible {
 }
 
 extension TrunkCar: CustomStringConvertible {
-    var descriotion: String {
+    var description: String {
         return """
                  #####
                     Color: \(self.color)
@@ -176,5 +176,5 @@ porsche.windowsState
 porsche.engineState
 
 
-print(audi.descriotion)
-print(porsche.descriotion)
+print(audi.description)
+print(porsche.description)
